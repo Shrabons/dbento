@@ -138,12 +138,16 @@
   .navbar .nav__item {
     display: none;
   }
+  .hero {
+    height: 63vh;
+  }
   .hero .hero__text h2 {
     line-height: 1.4em;
     font-size: 43px;
   }
   .hero .hero__text p {
     width: 100%;
+    padding: 0 10px;
   }
   .welcome .welcome__service .welcome__item {
     width: 100%;
