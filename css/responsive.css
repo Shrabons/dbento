@@ -1,0 +1,235 @@
+/* responsive 992 with 1200 px  */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .welcome .welcome__service .welcome__item .welcome__item_text h2 {
+    font-size: 31px;
+    color: #464646;
+    margin: 3px 0;
+    font-family: "Pacifico", cursive;
+    line-height: 1.5em;
+  }
+
+  .welcome .welcome__service .welcome__item .welcome__item_text p {
+    padding: 0;
+  }
+  .discover .foods .foods__service .foods__service_item {
+    width: 50%;
+  }
+  .discover {
+    padding: 80px 0;
+    overflow: scroll;
+  }
+
+  .guest {
+    margin-top: 60px;
+  }
+  .guest .guest__book .guset__item .guest__content p {
+    padding: 40px 0;
+  }
+
+  .events .events__news .events__item .events__foods__details {
+    padding: 15px 8px;
+    text-align: center;
+  }
+  .events .events__news .events__item .events__foods__details h3 {
+    font-size: 30px;
+    line-height: 1.4;
+  }
+  .footer__main .footer__main__col .footer__item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar .nav__item {
+    display: none;
+  }
+  .welcome .welcome__service .welcome__item {
+    width: 49%;
+  }
+  .specials .specials__daily {
+    width: 100%;
+  }
+  .discover {
+    padding: 80px 0;
+    overflow: scroll;
+  }
+  .discover .title p,
+  .events .title p {
+    width: 90%;
+  }
+  .discover .mixzing__menu ul li {
+    margin: 15px 20px;
+  }
+  .discover .mixzing__menu ul li a {
+    font-size: 23px;
+  }
+  .discover .foods {
+    background: none;
+  }
+  .discover .foods .foods__service .foods__service_item {
+    width: 100%;
+  }
+  .guest .guest__book .guset__item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .events .events__news .events__item {
+    width: 100%;
+  }
+  .footer__main .footer__main__col .footer__item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .navbar .nav__item {
+    display: none;
+  }
+  .hero .hero__text h2 {
+    line-height: 1.4em;
+  }
+  .welcome .welcome__service .welcome__item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .welcome .welcome__title p {
+    width: 90%;
+  }
+  .specials .specials__daily {
+    width: 100%;
+  }
+  .discover {
+    padding: 80px 0;
+    overflow: scroll;
+  }
+  .discover .title p,
+  .events .title p {
+    width: 90%;
+  }
+  .discover .mixzing__menu ul li {
+    margin: 15px 20px;
+  }
+  .discover .mixzing__menu ul li a {
+    font-size: 23px;
+  }
+  .discover .foods {
+    background: none;
+  }
+  .discover .foods .foods__service .foods__service_item {
+    width: 100%;
+  }
+  .guest .guest__book .guset__item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .events .events__news .events__item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .footer__main .footer__main__col .footer__item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+  .navbar .nav__item {
+    display: none;
+  }
+  .hero .hero__text h2 {
+    line-height: 1.4em;
+    font-size: 43px;
+  }
+  .hero .hero__text p {
+    width: 100%;
+  }
+  .welcome .welcome__service .welcome__item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .title h2 {
+    line-height: 1.4em;
+  }
+  .welcome .welcome__title p {
+    width: 100%;
+  }
+  .welcome .welcome__service .welcome__item .welcome__item_text p {
+    padding: 0;
+  }
+  .welcome .welcome__service .welcome__item .welcome__item_text h2 {
+    line-height: 1.5em;
+  }
+  .specials .specials__daily {
+    width: 100%;
+  }
+  .specials .specials__daily .specials__daily__item h3 {
+    line-height: 1.5em;
+  }
+  .specials .specials__daily .specials__daily__item p {
+    width: 100%;
+    margin: 0;
+  }
+  .discover {
+    padding: 80px 0;
+    overflow: scroll;
+  }
+  .discover .title p,
+  .events .title p {
+    width: 90%;
+  }
+  .discover .mixzing__menu ul li {
+    margin: 15px 20px;
+  }
+  .discover .mixzing__menu ul li a {
+    font-size: 23px;
+  }
+  .discover .foods {
+    background: none;
+  }
+  .discover .foods .foods__service .foods__service_item {
+    width: 100%;
+  }
+  .discover .foods .foods__service .foods__service_item h3 {
+    font-size: 32px;
+    line-height: 1.5em;
+  }
+  .discover .foods .foods__service .foods__service_item p {
+    padding: 10px 10px 60px;
+  }
+  .guest {
+    margin: 0;
+  }
+  .guest__overlay__bg {
+    padding: 75px 0;
+  }
+  .guest .guest__book .guset__item .guest__content p {
+    padding: 0;
+  }
+  .guest .guest__book .guset__item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .events .events__news .events__item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .events .events__news .events__item .events__foods__details h3 {
+    line-height: 1.5em;
+  }
+  .footer__main .footer__main__col .footer__item {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  .footer__main .footer__main__col .footer__item .footer__res {
+    width: 100%;
+  }
+  .footer__main .footer__main__col .footer__item address {
+    width: 100%;
+  }
+  .footer__main .footer__main__col .footer__item .footer__title {
+    line-height: 1.4em;
+  }
+}
