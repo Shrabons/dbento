@@ -148,6 +148,7 @@
   .hero .hero__text p {
     width: 100%;
     padding: 0 10px;
+    margin: 20px 0;
   }
   .welcome .welcome__service .welcome__item {
     width: 100%;
